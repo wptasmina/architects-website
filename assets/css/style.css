@@ -18,11 +18,6 @@ body {
     --dark-3: #727272;
     --color-white: #ffffff;
 }
-/* main{
-    max-width: 1440px;
-    margin: 0 auto;
-    border: 1px solid;
-} */
 img{
     width: 100%;
 }
@@ -33,7 +28,7 @@ img{
     width: 100%;
     max-width: 85%;
     margin-inline: auto;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 .btn-parymary {
     color: var(--color-white);
@@ -64,7 +59,8 @@ img{
 .nav-bar{
     justify-content: space-between;
     align-items: center;
-     border: 1px solid;
+    padding-block: 8px;
+    /* border: 1px solid; */
 }
 .nav-link li{
     margin-right: 30px;
@@ -81,13 +77,11 @@ img{
 }
  /*Header Banner section  */
  .banner {
-  border: 1px solid;  
   justify-content: center;
   margin-bottom: 70px;
  }
  .header-content {
-      width: 800px;
-      border: 1px solid; 
+      width: 800px; 
  }
 .header-title {
     color: var(--dark-1);
@@ -129,16 +123,20 @@ img{
     margin-left: 50px;
     padding-right: 100px;
 }
-.title {
-    width: 60%;
+.title, .fact-number  {
+
     font-size: 2.8rem;
     font-weight: 700;
     line-height: 53px;
+}
+.title{
     text-align: left; 
+    width: 60%;
 }  
-.desc{
+.card-desc{
     text-align: left;
-    margin-top: 30px;
+    margin-top: 10px;
+    width: 650px;
 }
 .our-text, .our-img {
     width: 50%;
@@ -176,10 +174,6 @@ img{
     line-height: 23px;
     text-align: left;
 }
-.card-desc{
-    padding-top: 10px;
-}
-
 .card-img{
     margin-left: 150px;
 }
@@ -196,4 +190,41 @@ img{
 .excper-text{
     font-size: 1.8rem;
     font-weight: 500;  
+}
+/* Some fact-care  */
+.fect-container{
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.box {
+    width: 250px;
+    height: 250px;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box img {
+    width: 45px;
+    height: 45px;
+}
+.fact-number {
+    text-align: center;
+    margin-block: 10px;
+}
+/* Our Sponspors section start  */
+.sponcer {
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 60px 100px;
+
+}
+/* Footer section  */
+#footer-text {
+    color: var(--dark-2);
+    background: var(--bg-color);
+    padding: 40px 400px;
+    text-align: center;
+    border-radius: 8px;
 }
