@@ -1,1 +1,1 @@
-Live : https://wptasmina.github.io/architects-website-
+Live : https://wptasmina.github.io/architects-website
